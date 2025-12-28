@@ -1,0 +1,75 @@
+2025-11-02 20:45:03 - root - INFO - 開始執行資料載入腳本...
+2025-11-02 20:45:03 - DataLoader - INFO - ============================================================
+2025-11-02 20:45:03 - DataLoader - INFO - 檢查資料檔案...
+2025-11-02 20:45:03 - DataLoader - INFO - ============================================================
+2025-11-02 20:45:03 - DataLoader - INFO - SharedResponsesSurvey.csv                ✅ 存在
+2025-11-02 20:45:03 - DataLoader - INFO - CountriesChangePr.csv                    ✅ 存在
+2025-11-02 20:45:03 - DataLoader - INFO - country_cluster_map.csv                  ✅ 存在
+2025-11-02 20:45:03 - DataLoader - INFO - moral_distance.csv                       ✅ 存在
+2025-11-02 20:45:03 - DataLoader - INFO - dendrogram_Culture.csv                   ✅ 存在
+2025-11-02 20:45:03 - DataLoader - INFO - 
+============================================================
+2025-11-02 20:45:03 - DataLoader - INFO - 開始載入所有資料...
+2025-11-02 20:45:03 - DataLoader - INFO - ============================================================
+2025-11-02 20:45:03 - DataLoader - INFO - 
+載入中: SharedResponsesSurvey.csv
+2025-11-02 20:45:38 - DataLoader - INFO - ✅ 成功載入 11,286,141 行 × 27 欄
+2025-11-02 20:45:38 - DataLoader - INFO -    ✓ 所有關鍵欄位都存在
+2025-11-02 20:45:38 - DataLoader - INFO - 
+載入中: CountriesChangePr.csv
+2025-11-02 20:45:38 - DataLoader - INFO - ✅ 成功載入 130 個國家 × 18 個指標
+2025-11-02 20:45:38 - DataLoader - INFO -    ✓ 9 個AMCE估計值欄位
+2025-11-02 20:45:38 - DataLoader - INFO -    ✓ 9 個標準誤欄位
+2025-11-02 20:45:38 - DataLoader - INFO - 
+載入中: country_cluster_map.csv
+2025-11-02 20:45:38 - DataLoader - INFO - ✅ 成功載入 130 個國家的文化圈分類
+2025-11-02 20:45:38 - DataLoader - INFO -    Cluster 0: 67 個國家
+2025-11-02 20:45:38 - DataLoader - INFO -    Cluster 1: 28 個國家
+2025-11-02 20:45:38 - DataLoader - INFO -    Cluster 2: 35 個國家
+2025-11-02 20:45:38 - DataLoader - INFO - 
+載入中: moral_distance.csv
+2025-11-02 20:45:38 - DataLoader - INFO - ✅ 成功載入 130 個國家的道德距離
+2025-11-02 20:45:38 - DataLoader - INFO -    距離範圍: 0.000 ~ 6.116
+2025-11-02 20:45:38 - DataLoader - INFO -    平均距離: 3.181
+2025-11-02 20:45:38 - DataLoader - INFO - 
+載入中: dendrogram_Culture.csv
+2025-11-02 20:45:38 - DataLoader - INFO - ✅ 成功載入 259 個節點
+2025-11-02 20:45:38 - DataLoader - INFO -    包含 106 個國家節點
+2025-11-02 20:45:38 - DataLoader - INFO - 
+============================================================
+2025-11-02 20:45:38 - DataLoader - INFO - ✅ 所有資料載入完成！耗時 34.40 秒
+2025-11-02 20:45:38 - DataLoader - INFO - ============================================================
+2025-11-02 20:46:19 - DataLoader - INFO - 
+============================================================
+2025-11-02 20:46:19 - DataLoader - INFO - 資料載入摘要
+2025-11-02 20:46:19 - DataLoader - INFO - ============================================================
+2025-11-02 20:46:19 - DataLoader - INFO - 
+【survey】
+2025-11-02 20:46:19 - DataLoader - INFO -   維度: 11,286,141 行 × 27 欄
+2025-11-02 20:46:19 - DataLoader - INFO -   記憶體: 8665.13 MB
+2025-11-02 20:46:19 - DataLoader - INFO -   缺失值: 5,008,397 (1.64%)
+2025-11-02 20:46:19 - DataLoader - INFO - 
+【countries_change】
+2025-11-02 20:46:19 - DataLoader - INFO -   維度: 130 行 × 18 欄
+2025-11-02 20:46:19 - DataLoader - INFO -   記憶體: 0.02 MB
+2025-11-02 20:46:19 - DataLoader - INFO -   缺失值: 0 (0.00%)
+2025-11-02 20:46:19 - DataLoader - INFO - 
+【cluster_map】
+2025-11-02 20:46:19 - DataLoader - INFO -   維度: 130 行 × 3 欄
+2025-11-02 20:46:19 - DataLoader - INFO -   記憶體: 0.01 MB
+2025-11-02 20:46:19 - DataLoader - INFO -   缺失值: 0 (0.00%)
+2025-11-02 20:46:19 - DataLoader - INFO - 
+【moral_distance】
+2025-11-02 20:46:19 - DataLoader - INFO -   維度: 130 行 × 2 欄
+2025-11-02 20:46:19 - DataLoader - INFO -   記憶體: 0.01 MB
+2025-11-02 20:46:19 - DataLoader - INFO -   缺失值: 0 (0.00%)
+2025-11-02 20:46:19 - DataLoader - INFO - 
+【dendrogram】
+2025-11-02 20:46:19 - DataLoader - INFO -   維度: 259 行 × 4 欄
+2025-11-02 20:46:19 - DataLoader - INFO -   記憶體: 0.04 MB
+2025-11-02 20:46:19 - DataLoader - INFO -   缺失值: 282 (27.22%)
+2025-11-02 20:46:19 - DataLoader - INFO - 
+------------------------------------------------------------
+2025-11-02 20:46:19 - DataLoader - INFO - 總計: 11,286,790 行資料，佔用 8665.22 MB記憶體
+2025-11-02 20:46:19 - DataLoader - INFO - ============================================================
+2025-11-02 20:47:48 - root - INFO - 資料載入腳本執行完成

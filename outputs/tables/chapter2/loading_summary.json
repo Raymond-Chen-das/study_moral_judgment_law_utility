@@ -1,0 +1,40 @@
+{
+  "loading_time": "2025-11-02 20:46:19",
+  "datasets": {
+    "survey": {
+      "rows": 11286141,
+      "columns": 27,
+      "memory_mb": 8665.131851196289,
+      "missing_values": 5008397,
+      "missing_pct": "1.64%"
+    },
+    "countries_change": {
+      "rows": 130,
+      "columns": 18,
+      "memory_mb": 0.02429962158203125,
+      "missing_values": 0,
+      "missing_pct": "0.00%"
+    },
+    "cluster_map": {
+      "rows": 130,
+      "columns": 3,
+      "memory_mb": 0.014645576477050781,
+      "missing_values": 0,
+      "missing_pct": "0.00%"
+    },
+    "moral_distance": {
+      "rows": 130,
+      "columns": 2,
+      "memory_mb": 0.007564544677734375,
+      "missing_values": 0,
+      "missing_pct": "0.00%"
+    },
+    "dendrogram": {
+      "rows": 259,
+      "columns": 4,
+      "memory_mb": 0.04122447967529297,
+      "missing_values": 282,
+      "missing_pct": "27.22%"
+    }
+  }
+}

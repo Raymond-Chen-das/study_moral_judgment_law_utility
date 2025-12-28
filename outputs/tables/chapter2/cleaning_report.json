@@ -1,0 +1,35 @@
+{
+  "original_rows": 11286141,
+  "steps": [
+    {
+      "step": "remove_missing_key_vars",
+      "removed": 41641,
+      "remaining": 11244500,
+      "removed_pct": "0.37%"
+    },
+    {
+      "step": "remove_outliers",
+      "removed": 2753601,
+      "remaining": 8490899,
+      "removed_pct": "24.49%"
+    },
+    {
+      "step": "filter_law_vs_utility",
+      "removed": 7896724,
+      "remaining": 594175,
+      "remaining_pct": "7.00%"
+    },
+    {
+      "step": "check_completeness",
+      "removed": 216583,
+      "remaining": 377592,
+      "removed_pct": "36.45%",
+      "complete_scenarios": 188796
+    },
+    {
+      "step": "merge_cluster",
+      "unclassified_count": 476,
+      "remaining": 377592
+    }
+  ]
+}

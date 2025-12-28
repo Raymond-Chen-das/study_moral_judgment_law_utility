@@ -1,0 +1,19 @@
+﻿特徵名稱,說明
+is_lawful,"該側是否守法（1=守法綠燈, 0=違法紅燈）"
+is_majority,"該側是否為多數（1=人數較多, 0=人數較少）"
+chose_lawful,"使用者是否選擇守法側（1=是, 0=否）"
+chose_majority,"使用者是否選擇多數側（1=是, 0=否）"
+lawful_vs_majority_conflict,"守法和多數是否衝突（1=衝突, 0=一致）"
+utilitarian_score,"效益主義分數：選擇多數的比例 [0, 1]"
+deontology_score,"義務論分數：選擇守法的比例 [0, 1]"
+consistency_score,"決策一致性：決策模式的穩定度 [0, 1]"
+n_scenarios,使用者完成的衝突場景數量
+country_law_preference,國家層級守法偏好（AMCE）
+country_utilitarian,國家層級效益主義傾向（AMCE）
+country_intervention,國家層級介入偏好（AMCE）
+country_pedestrian_pref,國家層級行人優先偏好（AMCE）
+country_gender_pref,國家層級性別偏好（AMCE）
+country_fitness_pref,國家層級體型偏好（AMCE）
+country_status_pref,國家層級社會地位偏好（AMCE）
+country_age_pref,國家層級年齡偏好（AMCE）
+country_species_pref,國家層級物種偏好（AMCE）

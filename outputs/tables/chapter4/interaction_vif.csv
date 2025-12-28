@@ -1,0 +1,9 @@
+﻿變數,VIF,判定
+Cluster_Eastern,1.1545200910778348,✓ 良好
+Cluster_Southern,1.0050818570763962,✓ 良好
+political_centered,1.4149014127744588,✓ 良好
+age_centered,1.021012342213428,✓ 良好
+religious_centered,1.1033022026865624,✓ 良好
+Cluster_Eastern_x_political_centered,1.2579677562867606,✓ 良好
+Cluster_Southern_x_political_centered,1.2042945388344757,✓ 良好
+age_centered_x_religious_centered,1.013875132607148,✓ 良好

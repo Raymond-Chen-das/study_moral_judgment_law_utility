@@ -1,0 +1,12 @@
+﻿feature,shap_importance,importance_normalized,rank,mean_shap,direction
+DiffNumberOFCharacters,0.36502796,0.38963988,1,0.00051938003,↑守法
+lawful_requires_intervention,0.1350697,0.14417674,2,-0.0015481818,↓效益
+country_utilitarian,0.09563155,0.10207948,3,-0.006833415,↓效益
+country_law_preference,0.0857959,0.091580674,4,0.006377793,↑守法
+Review_religious,0.08027147,0.085683756,5,0.0018458086,↑守法
+Review_political,0.0786705,0.083974846,6,-0.001657547,↓效益
+Review_age,0.07710457,0.08230333,7,-0.0011269719,↓效益
+Cluster_Eastern,0.009705081,0.010359444,8,-0.0002971108,↓效益
+Cluster_Western,0.006191389,0.0066088424,9,0.00041911282,↑守法
+Cluster_Southern,0.0033660394,0.0035929938,10,-0.00023718183,↓效益
+PedPed,0.0,0.0,11,0.0,↓效益

@@ -1,0 +1,103 @@
+2025-11-23 22:50:43 - root - INFO - 開始執行特徵工程腳本...
+2025-11-23 22:50:44 - FeatureEngineer - INFO - 
+============================================================
+2025-11-23 22:50:44 - FeatureEngineer - INFO - 開始特徵工程...
+2025-11-23 22:50:44 - FeatureEngineer - INFO - ============================================================
+2025-11-23 22:50:44 - FeatureEngineer - INFO - 
+------------------------------------------------------------
+2025-11-23 22:50:44 - FeatureEngineer - INFO - 【Step 1】建立場景層級特徵
+2025-11-23 22:50:44 - FeatureEngineer - INFO - ------------------------------------------------------------
+2025-11-23 22:50:44 - FeatureEngineer - INFO - ✅ 建立 is_lawful (該側是否守法)
+2025-11-23 22:50:45 - FeatureEngineer - INFO - ✅ 建立 is_majority (該側是否為多數)
+2025-11-23 22:50:45 - FeatureEngineer - INFO - ✅ 建立 chose_lawful (使用者是否選擇守法側)
+2025-11-23 22:50:45 - FeatureEngineer - INFO - ✅ 建立 chose_majority (使用者是否選擇多數側)
+2025-11-23 22:51:09 - FeatureEngineer - INFO - ✅ 建立 lawful_vs_majority_conflict (守法vs.多數衝突)
+2025-11-23 22:51:09 - FeatureEngineer - INFO - 
+特徵統計:
+2025-11-23 22:51:09 - FeatureEngineer - INFO -   守法側: 188,796 / 377,592 (50.0%)
+2025-11-23 22:51:09 - FeatureEngineer - INFO -   多數側: 188,796 / 377,592 (50.0%)
+2025-11-23 22:51:09 - FeatureEngineer - INFO -   選擇守法: 131,622 / 377,592 (34.9%)
+2025-11-23 22:51:09 - FeatureEngineer - INFO -   選擇多數: 140,725 / 377,592 (37.3%)
+2025-11-23 22:51:09 - FeatureEngineer - INFO -   有衝突場景: 93,679 / 188,796 (49.6%)
+2025-11-23 22:51:09 - FeatureEngineer - INFO - 
+------------------------------------------------------------
+2025-11-23 22:51:09 - FeatureEngineer - INFO - 【驗證】場景結構檢查
+2025-11-23 22:51:09 - FeatureEngineer - INFO - ------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ✅ 所有場景都有且僅有一個多數側
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ✅ 所有場景都只有一側被選擇
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ✅ 衝突場景定義正確（共 93,679 個）
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+============================================================
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 特徵工程完成！
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ============================================================
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 【合併國家層級特徵】
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 合併了 9 個國家層級特徵:
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_law_preference
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_utilitarian
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_intervention
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_pedestrian_pref
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_gender_pref
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_fitness_pref
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_status_pref
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_age_pref
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   - country_species_pref
+2025-11-23 22:51:10 - FeatureEngineer - WARNING - 
+⚠️  476 行無法對應國家特徵 (0.13%)
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+合併完成: 377,592 行 → 377,592 行
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 【增加特徵可用性標記】
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 有國家特徵: 377,116 行 (99.87%)
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 無國家特徵: 476 行 (0.13%)
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+無國家特徵資料的 Cluster 分佈:
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   Cluster -1: 476 行
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ✅ 確認：所有無國家特徵的資料都是 Cluster == -1
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 【Step 3】分割訓練/測試集
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+分割結果:
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   訓練集: 149,900 行, 69,120 位使用者 (80.0%)
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   測試集: 37,458 行, 17,281 位使用者 (20.0%)
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ✅ 訓練集和測試集完全分離，無資料洩漏
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+文化圈分佈:
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   Unclassified: 訓練 0.1%, 測試 0.1%
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   Western: 訓練 73.9%, 測試 74.1%
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   Eastern: 訓練 7.8%, 測試 7.9%
+2025-11-23 22:51:10 - FeatureEngineer - INFO -   Southern: 訓練 18.2%, 測試 17.9%
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 
+------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 【Step 2】建立使用者道德側寫
+2025-11-23 22:51:10 - FeatureEngineer - INFO - ------------------------------------------------------------
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 使用 74,950 個衝突場景
+2025-11-23 22:51:10 - FeatureEngineer - INFO - 涉及 69,120 位使用者
+2025-11-23 22:51:33 - FeatureEngineer - INFO - 
+建立了 69,120 位使用者的道德側寫
+2025-11-23 22:51:33 - FeatureEngineer - INFO - 
+側寫統計:
+2025-11-23 22:51:33 - FeatureEngineer - INFO -   效益主義分數: 平均 0.550, 標準差 0.492
+2025-11-23 22:51:33 - FeatureEngineer - INFO -   義務論分數: 平均 0.450, 標準差 0.492
+2025-11-23 22:51:33 - FeatureEngineer - INFO -   決策一致性: 平均 0.989, 標準差 0.073
+2025-11-23 22:51:33 - FeatureEngineer - INFO -   場景數量: 平均 1.1, 中位數 1
+2025-11-23 22:51:33 - FeatureEngineer - INFO - 
+------------------------------------------------------------
+2025-11-23 22:51:33 - FeatureEngineer - INFO - 【Step 2】建立使用者道德側寫
+2025-11-23 22:51:33 - FeatureEngineer - INFO - ------------------------------------------------------------
+2025-11-23 22:51:33 - FeatureEngineer - INFO - 使用 18,729 個衝突場景
+2025-11-23 22:51:33 - FeatureEngineer - INFO - 涉及 17,281 位使用者
+2025-11-23 22:51:38 - FeatureEngineer - INFO - 
+建立了 17,281 位使用者的道德側寫
+2025-11-23 22:51:38 - FeatureEngineer - INFO - 
+側寫統計:
+2025-11-23 22:51:38 - FeatureEngineer - INFO -   效益主義分數: 平均 0.546, 標準差 0.492
+2025-11-23 22:51:38 - FeatureEngineer - INFO -   義務論分數: 平均 0.454, 標準差 0.492
+2025-11-23 22:51:38 - FeatureEngineer - INFO -   決策一致性: 平均 0.989, 標準差 0.073
+2025-11-23 22:51:38 - FeatureEngineer - INFO -   場景數量: 平均 1.1, 中位數 1

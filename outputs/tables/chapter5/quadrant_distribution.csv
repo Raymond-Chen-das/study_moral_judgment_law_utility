@@ -1,0 +1,13 @@
+﻿quadrant,cluster,count
+Q1: 高效益+高守法,Western,20
+Q1: 高效益+高守法,Eastern,3
+Q1: 高效益+高守法,Southern,12
+Q2: 低效益+高守法,Western,11
+Q2: 低效益+高守法,Eastern,16
+Q2: 低效益+高守法,Southern,6
+Q3: 低效益+低守法,Western,13
+Q3: 低效益+低守法,Eastern,7
+Q3: 低效益+低守法,Southern,7
+Q4: 高效益+低守法,Western,23
+Q4: 高效益+低守法,Eastern,2
+Q4: 高效益+低守法,Southern,10

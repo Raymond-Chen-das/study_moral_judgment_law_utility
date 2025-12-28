@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# 資料檔案（太大，不上傳）
+data/raw/*.csv
+data/processed/*.csv
+*.pkl
+*.h5
+
+# 輸出結果（可選擇性上傳）
+#outputs/models/*.pkl
+#outputs/logs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 作業系統
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,271 @@
+2025-11-23 23:07:12 - root - INFO - 開始執行探索性分析腳本...
+2025-11-23 23:07:13 - GlobalPatternAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:13 - GlobalPatternAnalyzer - INFO - 開始全球模式分析...
+2025-11-23 23:07:13 - GlobalPatternAnalyzer - INFO - ============================================================
+2025-11-23 23:07:13 - GlobalPatternAnalyzer - INFO - 計算各國守法選擇率...
+2025-11-23 23:07:13 - GlobalPatternAnalyzer - INFO - 計算完成，共 130 個國家
+2025-11-23 23:07:13 - GlobalPatternAnalyzer - INFO - 建立世界地圖...
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - 世界地圖已儲存: outputs/figures/chapter3_exploration/global_lawful_map.html
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - 建立文化圈比較圖...
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - 文化圈比較圖已儲存: outputs/figures/chapter3_exploration/cluster_comparison.html
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - 生成描述統計表...
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - 描述統計表已儲存: outputs/tables/chapter3/global_descriptive_stats.csv
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - Top/Bottom國家已儲存: outputs/tables/chapter3/top_bottom_countries.csv
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - 全球模式分析完成！
+2025-11-23 23:07:14 - GlobalPatternAnalyzer - INFO - ============================================================
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 開始東亞聚焦分析...
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - ============================================================
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 載入國家AMCE資料: data/raw/CountriesChangePr.csv
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 提取東亞四國資料...
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 提取完成，共 4 個國家，9 個維度
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 建立東亞四國雷達圖...
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 雷達圖已儲存: outputs/figures/chapter3_exploration/east_asia_radar.html
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 建立分組點圖（含信賴區間）...
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 分組點圖已儲存: outputs/figures/chapter3_exploration/east_asia_dot_plot.html
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 計算國家間歐式距離...
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 距離計算完成
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 建立距離熱圖...
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 距離熱圖已儲存: outputs/figures/chapter3_exploration/east_asia_distance.html
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 建立比較表格...
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 比較表已儲存: outputs/tables/chapter3/east_asia_comparison.csv
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - 東亞聚焦分析完成！
+2025-11-23 23:07:14 - EastAsiaAnalyzer - INFO - ============================================================
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - 開始階層分群分析...
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - ============================================================
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - 準備分群資料...
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - 準備完成：130 個國家，8 個維度
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - 執行階層分群...
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - Cophenetic correlation: 0.3860
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - WARNING - ⚠️  Cophenetic correlation < 0.75
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - 建立樹狀圖...
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - 樹狀圖已儲存: outputs/figures/chapter3_exploration/dendrogram.html
+2025-11-23 23:07:15 - HierarchicalClusterAnalyzer - INFO - 建立距離矩陣熱圖...
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO - 距離熱圖已儲存: outputs/figures/chapter3_exploration/moral_distance_heatmap.html
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO - 與原始分類比較（切割為 3 群）...
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO - Adjusted Rand Index (ARI): 0.1944
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - WARNING - ⚠️  ARI < 0.60 (一致性較低)
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO - 尋找台灣的最近鄰居...
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO - 台灣最接近的 10 個國家:
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   1. THA: 1.145
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   2. JPN: 2.091
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   3. CHN: 2.181
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   4. KOR: 2.309
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   5. MYS: 2.576
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   6. HKG: 2.697
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   7. IND: 2.819
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   8. KWT: 2.871
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   9. MAC: 2.954
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO -   10. MKD: 3.077
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO - 階層分群分析完成！
+2025-11-23 23:07:16 - HierarchicalClusterAnalyzer - INFO - ============================================================
+2025-11-23 23:07:16 - LatentClassAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:16 - LatentClassAnalyzer - INFO - 開始潛在類別分析...
+2025-11-23 23:07:16 - LatentClassAnalyzer - INFO - ============================================================
+2025-11-23 23:07:16 - LatentClassAnalyzer - INFO - 載入使用者道德側寫: data/processed/user_moral_profiles.csv
+2025-11-23 23:07:16 - LatentClassAnalyzer - INFO - 僅使用訓練集: 69,120 位使用者
+2025-11-23 23:07:16 - LatentClassAnalyzer - INFO - 準備特徵矩陣...
+2025-11-23 23:07:16 - LatentClassAnalyzer - INFO - 特徵準備完成: (69120, 2)
+2025-11-23 23:07:16 - LatentClassAnalyzer - INFO - 測試類別數: [2, 3, 4, 5, 6]
+2025-11-23 23:07:21 - LatentClassAnalyzer - INFO -   k=2: BIC=-1085505.20
+2025-11-23 23:07:23 - LatentClassAnalyzer - INFO -   k=3: BIC=-1531933.02
+2025-11-23 23:07:24 - LatentClassAnalyzer - INFO -   k=4: BIC=-1532737.60
+2025-11-23 23:07:26 - LatentClassAnalyzer - INFO -   k=5: BIC=-1546306.18
+2025-11-23 23:07:28 - LatentClassAnalyzer - INFO -   k=6: BIC=-1546626.63
+2025-11-23 23:07:28 - LatentClassAnalyzer - INFO - ✅ 最佳類別數: 6 (BIC=-1546626.63)
+2025-11-23 23:07:28 - LatentClassAnalyzer - INFO - 建立BIC曲線圖...
+2025-11-23 23:07:28 - LatentClassAnalyzer - INFO - BIC曲線已儲存: outputs/figures/chapter3_exploration/lca_bic_curve.html
+2025-11-23 23:07:28 - LatentClassAnalyzer - INFO - 訓練GMM模型 (k=6)...
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 模型訓練完成
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 分析類別特徵...
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 
+類別特徵:
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -   強效益主義者: 37,217 位 (53.8%)
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -     效益主義: 1.000, 義務論: 0.000
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -   強義務論者: 30,376 位 (43.9%)
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -     效益主義: 0.000, 義務論: 1.000
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -   中間派: 1,445 位 (2.1%)
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -     效益主義: 0.500, 義務論: 0.500
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -   中間派: 44 位 (0.1%)
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -     效益主義: 0.667, 義務論: 0.333
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -   中間派: 36 位 (0.1%)
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -     效益主義: 0.330, 義務論: 0.670
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -   強效益主義者: 2 位 (0.0%)
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO -     效益主義: 0.750, 義務論: 0.250
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 建立類別特徵雷達圖...
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 類別雷達圖已儲存: outputs/figures/chapter3_exploration/lca_class_profiles.html
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 分析類別與文化圈的關係...
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 文化分佈圖已儲存: outputs/figures/chapter3_exploration/lca_culture_distribution.html
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - 潛在類別分析完成！
+2025-11-23 23:07:30 - LatentClassAnalyzer - INFO - ============================================================
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - 開始替代分群方法分析...
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - ============================================================
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - 載入資料...
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - 資料準備完成：130 個國家，8 個維度
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - 【方法1】K-means + Silhouette
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - ============================================================
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO - 執行K-means分群...
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO -   測試 k=2...
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1850
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 32.61
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.8570
+2025-11-23 23:07:30 - AlternativeClusteringAnalyzer - INFO -   測試 k=3...
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1780
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 27.70
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.7360
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -   測試 k=4...
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1844
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 25.83
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.6985
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -   測試 k=5...
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1908
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 23.29
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.6497
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -   測試 k=6...
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1909
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 21.19
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.5807
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -   測試 k=7...
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1578
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 19.55
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.6833
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -   測試 k=8...
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1610
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 18.17
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.6137
+2025-11-23 23:07:31 - AlternativeClusteringAnalyzer - INFO -   測試 k=9...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1482
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 17.85
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.5269
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 k=10...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     Silhouette: 0.1502
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     Calinski-Harabasz: 17.09
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     Davies-Bouldin: 1.5723
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 
+最佳 k = 6 (Silhouette = 0.1909)
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 建立K-means評估圖...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - K-means評估圖已儲存: outputs/figures/chapter3_exploration/kmeans_evaluation.html
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 【方法2】DBSCAN
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - ============================================================
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 執行DBSCAN分群...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.218...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 23, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.297...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 17, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.375...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 15, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.454...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 11, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.533...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 10, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.611...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 8, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.690...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 8, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.769...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 7, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.848...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 7, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=2.926...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 4, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.005...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 4, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.084...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 3, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.162...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 3, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.241...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 3, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.320...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 2, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.398...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 2, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.477...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 2, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.556...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 1, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.635...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 1, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -   測試 eps=3.713...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO -     群數: 1, 噪音點: 1, Silhouette: -1.0000
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - WARNING - ⚠️  DBSCAN未找到有效的分群
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 建立DBSCAN評估圖...
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - DBSCAN評估圖已儲存: outputs/figures/chapter3_exploration/dbscan_evaluation.html
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 【方法3】t-SNE降維視覺化
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - ============================================================
+2025-11-23 23:07:32 - AlternativeClusteringAnalyzer - INFO - 執行t-SNE降維...
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - t-SNE降維完成
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - 建立t-SNE視覺化圖...
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - t-SNE視覺化圖已儲存: outputs/figures/chapter3_exploration/tsne_visualization.html
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - 【比較】四種方法
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - ============================================================
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - 比較四種分群方法...
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - 
+方法比較結果:
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - 建立方法比較圖...
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - 方法比較圖已儲存: outputs/figures/chapter3_exploration/clustering_methods_comparison.html
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - ✅ 替代分群方法分析完成！
+2025-11-23 23:07:33 - AlternativeClusteringAnalyzer - INFO - ============================================================
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 開始LCA敏感度分析...
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - ============================================================
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 載入使用者道德側寫: data/processed/user_moral_profiles.csv
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 僅使用訓練集: 69,120 位使用者
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 依場景數量分層...
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 
+【1次】
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO -   使用者數: 63,506
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO -   極端比例: 100.0%
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 
+【2次】
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO -   使用者數: 5,424
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO -   極端比例: 73.4%
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 
+【3次以上】
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO -   使用者數: 190
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO -   極端比例: 54.7%
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 極端比例圖已儲存: outputs/figures/chapter3_exploration/lca_sensitivity_extreme_ratio.html
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 
+【卡方檢定】χ² = 17960.78, p = 0.0000
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 
+## 敏感度分析：詮釋
+
+### ⚠️ 支持「測量假象」假設
+
+- 完成3次以上場景的極端比例降至 54.7%
+
+- 表示**觀測次數不足**導致極端分數
+
+- 需要更多場景才能準確測量道德傾向
+
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 
+============================================================
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - 敏感度分析完成！
+2025-11-23 23:07:33 - LatentClassAnalyzer - INFO - ============================================================
+2025-11-23 23:07:33 - root - INFO - 探索性分析腳本執行完成

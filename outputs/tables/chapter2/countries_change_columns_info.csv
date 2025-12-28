@@ -1,0 +1,19 @@
+﻿欄位名稱,資料型態,非空值數量,缺失值數量,缺失值比例,唯一值數量
+[Omission -> Commission]: Estimates,float64,130,0,0.00%,130
+[Passengers -> Pedestrians]: Estimates,float64,130,0,0.00%,130
+Law [Illegal -> Legal]: Estimates,float64,130,0,0.00%,130
+Gender [Male -> Female]: Estimates,float64,130,0,0.00%,130
+Fitness [Large -> Fit]: Estimates,float64,130,0,0.00%,130
+Social Status [Low -> High]: Estimates,float64,130,0,0.00%,130
+Age [Elderly -> Young]: Estimates,float64,130,0,0.00%,130
+No. Characters [Less -> More]: Estimates,float64,130,0,0.00%,130
+Species [Pets -> Humans]: Estimates,float64,130,0,0.00%,130
+[Omission -> Commission]: se,float64,130,0,0.00%,130
+[Passengers -> Pedestrians]: se,float64,130,0,0.00%,130
+Law [Illegal -> Legal]: se,float64,130,0,0.00%,130
+Gender [Male -> Female]: se,float64,130,0,0.00%,130
+Fitness [Large -> Fit]: se,float64,130,0,0.00%,130
+Social Status [Low -> High]: se,float64,130,0,0.00%,130
+Age [Elderly -> Young]: se,float64,130,0,0.00%,130
+No. Characters [Less -> More]: se,float64,130,0,0.00%,130
+Species [Pets -> Humans]: se,float64,130,0,0.00%,130
