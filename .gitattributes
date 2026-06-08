@@ -1,0 +1,3 @@
+# 將輸出的 HTML 報告排除在 GitHub 語言統計之外，
+# 讓語言列正確反映 Python / Jupyter 等實際分析程式，而非報告檔。
+*.html linguist-documentation
